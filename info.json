@@ -1,0 +1,12 @@
+{
+  "name": "kry-planets-japanese",
+  "version": "0.1.0",
+  "title": "Kry All Planet Mods 日本語化",
+  "author": "synchro4351",
+  "factorio_version": "2.1",
+  "description": "kry-all-planet-mods に含まれる惑星MODとその前提MODを日本語化します。Any_Japanise_Pack が翻訳済みのMODは対象外にして、併用できるようにしています。",
+  "dependencies": [
+    "base >= 2.1.0",
+    "? Any_Japanise_Pack"
+  ]
+}
