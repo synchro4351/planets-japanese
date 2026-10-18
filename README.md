@@ -27,7 +27,9 @@ python3 tools/build.py --factorio 2.0 --version X.Y.Z  # 2.0 用
 
 - `locale/ja/<対象MOD名>.cfg` … 対象MODごとの日本語ロケール
 - `tools/check_keys.py` … 対象MODの英語ロケールと比べて未訳キーを出す
+- `tools/coverage.py` … modフォルダを見て、MODごとの訳済み・未訳のキー数を表にする
 - `tools/check_conflicts.py` … ほかの日本語化MODとキーが重なっていないか調べる
+- `tools/check_tags.py` … 訳文のタグや変数が英語と同じか調べる
 - `tools/build.py` … `dist/` に配布用zipを作る（2.0 / 2.1）
 
 ## 翻訳方針
@@ -35,5 +37,9 @@ python3 tools/build.py --factorio 2.0 --version X.Y.Z  # 2.0 用
 Any_Japanise_Pack に合わせます。
 
 - 基本は直訳
-- Factorio公式の日本語訳に寄せる（例: Assembler MK4 → 組立機4）
+- Factorio公式の日本語訳に寄せる（例: Assembler MK4 → 組立機4）。用語は [docs/glossary.md](docs/glossary.md)
 - バニラの項目名を書き換えるキーは入れない
+
+## 同じキーを複数のMODが定義している場合
+
+元のMODどうしで同じキーを上書きしているもの（cr-extras → foliax / obsidiax、Arcanyx・IridescentIndustry → Voidcraft、ribbonia → liquid_recycler）は、上書きする側のMODの訳だけを入れています。パックをまとめて入れる前提の選び方です。
