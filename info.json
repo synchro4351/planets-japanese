@@ -4,9 +4,10 @@
   "title": "Kry All Planet Mods 日本語化",
   "author": "synchro4351",
   "factorio_version": "2.1",
-  "description": "kry-all-planet-mods に含まれる惑星MODとその前提MODを日本語化します。Any_Japanise_Pack が翻訳済みのMODは対象外にして、併用できるようにしています。",
+  "description": "kry-planet-mods（kry-all-planet-mods / lite）に含まれる惑星MODとその前提MODを日本語化します。Any_Japanise_Pack や 惑星Mod 日本語化パック が訳済みのMODは対象外にして、併用できるようにしています。",
   "dependencies": [
     "base >= 2.1.0",
-    "? Any_Japanise_Pack"
+    "? Any_Japanise_Pack",
+    "? Translate_planet_into_Japanese"
   ]
 }
