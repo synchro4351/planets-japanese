@@ -17,9 +17,12 @@
 中身は訳文だけなので、同じソースから2.0用と2.1用のzipを作れます。
 
 ```
-python3 tools/build.py                                 # 2.1 用
-python3 tools/build.py --factorio 2.0 --version X.Y.Z  # 2.0 用
+python3 tools/check_format.py   # Factorio が読めない書き方（重複セクションなど）がないか確認
+python3 tools/build.py          # dist/ に 2.0 用と 2.1 用の zip を作る
 ```
+
+バージョン番号の末尾は Factorio のバージョンを表します（例: 0.2.0 が 2.0 用、0.2.1 が 2.1 用）。
+中身を更新したときは真ん中の数字を上げます。
 
 対象と進み具合は [docs/targets.md](docs/targets.md) を見てください。
 
@@ -30,6 +33,7 @@ python3 tools/build.py --factorio 2.0 --version X.Y.Z  # 2.0 用
 - `tools/coverage.py` … modフォルダを見て、MODごとの訳済み・未訳のキー数を表にする
 - `tools/check_conflicts.py` … ほかの日本語化MODとキーが重なっていないか調べる
 - `tools/check_tags.py` … 訳文のタグや変数が英語と同じか調べる
+- `tools/check_format.py` … 同じセクションやキーが1ファイルに2回出ていないか確認する（`--fix` で重複セクションをまとめる）
 - `tools/build.py` … `dist/` に配布用zipを作る（2.0 / 2.1）
 
 ## 翻訳方針

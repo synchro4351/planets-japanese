@@ -1,11 +1,14 @@
 """dist/ に Factorio 用の zip（<name>_<version>.zip）を作る。
 
 使い方:
-    python3 tools/build.py                 # info.json のまま（2.1 向け）
-    python3 tools/build.py --factorio 2.0  # factorio_version を 2.0 にして作る
+    python3 tools/build.py                 # 2.0 用と 2.1 用を両方作る
+    python3 tools/build.py --factorio 2.0  # 2.0 用だけ作る
 
 MODポータルは同じバージョン番号を2回登録できないので、
-2.0 向けは --version で 2.1 向けと別のバージョン番号を付けてください。
+info.json の version（例 0.2.0）の末尾の数字を Factorio のバージョンで決める。
+    Factorio 2.0 用 → 0.2.0
+    Factorio 2.1 用 → 0.2.1
+中身の更新は 0.2 → 0.3 のように真ん中の数字を上げる。
 """
 import argparse
 import json
@@ -14,23 +17,24 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INCLUDE = ["changelog.txt", "thumbnail.png", "locale"]
+# Factorio のバージョン → MOD バージョンの末尾の数字
+PATCH = {"2.0": 0, "2.1": 1}
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--factorio", help="factorio_version を上書きする（例: 2.0）")
-    parser.add_argument("--version", help="version を上書きする")
+    parser.add_argument("--factorio", choices=sorted(PATCH), help="片方だけ作る（2.0 か 2.1）")
     args = parser.parse_args()
+    for factorio in [args.factorio] if args.factorio else sorted(PATCH):
+        build(factorio)
 
+
+def build(factorio):
     info = json.loads((ROOT / "info.json").read_text(encoding="utf-8"))
-    if args.factorio:
-        info["factorio_version"] = args.factorio
-        major, minor = args.factorio.split(".")
-        info["dependencies"] = [
-            f"base >= {major}.{minor}.0" if d.startswith("base") else d for d in info["dependencies"]
-        ]
-    if args.version:
-        info["version"] = args.version
+    info["factorio_version"] = factorio
+    info["dependencies"] = [f"base >= {factorio}.0" if d.startswith("base") else d for d in info["dependencies"]]
+    major, minor, _ = info["version"].split(".")
+    info["version"] = f"{major}.{minor}.{PATCH[factorio]}"
 
     folder = f"{info['name']}_{info['version']}"
     out = ROOT / "dist" / f"{folder}.zip"
