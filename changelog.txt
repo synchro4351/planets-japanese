@@ -5,4 +5,4 @@ Date: 2026-10-19
     - kry-all-planet-mods 1.1.5 / kry-planet-mods-lite 1.1.3 の惑星MODと前提MOD（70MOD、約9,600キー）を日本語化
   Info:
     - Any_Japanise_Pack と Translate_planet_into_Japanese が訳済みのキーは含めない
-    - 対象のMODを任意依存に並べ、ゲーム内のMOD詳細から対象が分かるようにした
+    - 説明文に主な対応MODを載せた
