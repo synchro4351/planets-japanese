@@ -16,7 +16,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INCLUDE = ["changelog.txt", "thumbnail.png", "locale"]
+INCLUDE = ["changelog.txt", "thumbnail.png", "LICENSE", "locale"]
 # Factorio のバージョン → MOD バージョンの末尾の数字
 PATCH = {"2.0": 0, "2.1": 1}
 
