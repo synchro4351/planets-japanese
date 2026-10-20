@@ -1,6 +1,9 @@
-# kry-planets-japanese
+# planets-japanese（All Planet Mods 日本語化）
 
 [Kry's All Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods)（と lite 版）に含まれる惑星MODと、その前提MODを日本語化するFactorio MODです。
+パックの作者とは関係のない、有志の日本語化MODです。
+
+対象のMODは info.json の任意依存（`? MOD名`）に並べてあるので、ゲーム内のMOD詳細からも確認できます。
 
 ## ほかの日本語化MODとの併用
 
@@ -11,6 +14,10 @@
 
 同じロケールキーを両方で定義しないことで、どちらの訳が使われるかで揉めないようにしています。
 念のため両方を任意依存にして、読み込み順をこちらが後になるようにしています。
+
+対象のMODも任意依存にしているので、このMODは常に対象MODより後に読み込まれます。
+対象MODが後から自前の日本語訳を入れた場合は、こちらの訳が優先されてしまうため、
+MODが更新されたら `tools/coverage.py` で本体の日本語訳を確認し、重なったキーをこちらから削除します。
 
 ## Factorio 2.0 / 2.1
 
