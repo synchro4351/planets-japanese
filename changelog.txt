@@ -6,3 +6,4 @@ Date: 2026-10-19
   Info:
     - Any_Japanise_Pack と Translate_planet_into_Japanese が訳済みのキーは含めない
     - 説明文に主な対応MODを載せた
+    - AIによる機械翻訳であることを説明文に明記

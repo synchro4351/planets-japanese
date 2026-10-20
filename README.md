@@ -3,6 +3,8 @@
 [Kry's All Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods)（と lite 版）に含まれる惑星MODと、その前提MODを日本語化するFactorio MODです。
 パックの作者とは関係のない、有志の日本語化MODです。
 
+> **AIによる機械翻訳です。** 訳語の統一やタグの確認はしていますが、ゲーム内ですべての表示を確かめたわけではありません。不自然な訳や誤訳を見つけたら Issue で教えてください。
+
 ## ほかの日本語化MODとの併用
 
 次のMODが既に翻訳しているMOD、それとMOD本体に日本語が入っているMODは対象外にしています。
