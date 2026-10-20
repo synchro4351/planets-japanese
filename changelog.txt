@@ -1,5 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.0
-Date: 2026-10-18
+Version: 0.2.0
+Date: 2026-10-20
+  Features:
+    - kry-all-planet-mods 1.1.5 / kry-planet-mods-lite 1.1.3 の惑星MODと前提MOD（70MOD、約9,600キー）を日本語化
   Info:
-    - 初期構成
+    - Any_Japanise_Pack と Translate_planet_into_Japanese が訳済みのキーは含めない
+    - 説明文に主な対応MODを載せた
+    - AIによる機械翻訳であることを説明文に明記
