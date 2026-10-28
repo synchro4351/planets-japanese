@@ -1,0 +1,2 @@
+{"id":"ei9kbm824","ts":"2026-10-28T07:03:38.718Z","type":"node.create","node":"n4u66p2ba","rev":1,"actor":{"kind":"ai","agent":"shino"},"after":{"title":"Questree で記録を始める","icon":"🌳","private":null,"body":"このプロジェクトの作業を Questree のツリーに記録する。これまでの分は候補として入れた。\n","kind":"task","stage":"formal","status":"todo","parent":null,"order":null,"edges":[],"files":[],"split_from":null}}
+{"id":"e8apqdbwq","ts":"2026-10-28T07:03:41.566Z","type":"node.status","node":"n4u66p2ba","rev":2,"actor":{"kind":"ai","agent":"shino"},"before":{"status":"todo"},"after":{"status":"doing"}}
