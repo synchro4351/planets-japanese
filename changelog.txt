@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026-11-01
+  Features:
+    - 更新が止まった「惑星Mod 日本語化パック」（Translate_planet_into_Japanese）の担当分を引き継ぎ、英語から訳し直した
+    - Lignumis、Tenebris Prime、Moshine、Muluna、Maraxsis、Rubia、Paracelsin、PlanetsLib、Metal and Stars（beomyo版）、common-prototypes など28MODの未訳・引き継ぎ分（約600キー）を追加
+  Info:
+    - 惑星Mod 日本語化パックは無効にする前提にした（有効のままだと Any_Japanise_Pack や各MOD本体の訳を上書きするため）
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 2026-10-21
   Graphics:

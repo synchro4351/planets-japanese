@@ -1,10 +1,10 @@
 {
   "name": "planets-japanese",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "title": "All Planet Mods 日本語化",
   "author": "synchro4351",
   "factorio_version": "2.1",
-  "description": "kry-planet-mods（kry-all-planet-mods / lite）に含まれる惑星MODとその前提MOD、約70MODを日本語化します。Any_Japanise_Pack や 惑星Mod 日本語化パック が訳済みのMODは対象外にして、併用できるようにしています。\n※AIによる機械翻訳です。不自然な訳や誤訳があればお知らせください。\n主な対応MOD\n • 惑星Arig対応\n • 惑星Hyarion対応\n • 惑星Tellus対応\n • 惑星Panglia対応\n • 惑星Muria対応\n • 惑星Linox対応\n • 惑星Foliax対応\n • 惑星Crucible対応\n • 惑星Rabbasca対応\n • 衛星Eneas対応\n ほか（全一覧は GitHub の docs/targets.md）",
+  "description": "kry-planet-mods（kry-all-planet-mods / lite）に含まれる惑星MODとその前提MOD、約70MODを日本語化します。Any_Japanise_Pack が訳済みのところは対象外にして、併用できるようにしています。\n更新が止まった「惑星Mod 日本語化パック」の訳も引き継いだので、そちらは無効にしてください（有効のままだと、Any_Japanise_Pack や各MOD本体の正しい訳が古い訳で上書きされます）。\n※AIによる機械翻訳です。不自然な訳や誤訳があればお知らせください。\n主な対応MOD\n • 惑星Arig対応\n • 惑星Hyarion対応\n • 惑星Tellus対応\n • 惑星Panglia対応\n • 惑星Muria対応\n • 惑星Linox対応\n • 惑星Foliax対応\n • 惑星Crucible対応\n • 惑星Rabbasca対応\n • 衛星Eneas対応\n • 惑星Tenebris Prime対応\n • 衛星Lignumis対応（不足分）\n ほか（全一覧は GitHub の docs/targets.md）",
   "dependencies": [
     "base >= 2.1.0",
     "? Any_Japanise_Pack",

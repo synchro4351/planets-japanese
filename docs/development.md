@@ -34,6 +34,15 @@ Any_Japanise_Pack に合わせます。
 - Factorio公式の日本語訳に寄せる（例: Assembler MK4 → 組立機4）。用語は [glossary.md](glossary.md)
 - バニラの項目名を書き換えるキーは入れない
 
+## 惑星Mod 日本語化パックの引き継ぎ
+
+Translate_planet_into_Japanese（惑星Mod 日本語化パック）は 1.3.3（2025-10、Factorio 2.0 のみ）で更新が止まっているため、0.4.0 からこのMODが担当分を引き継いでいます。
+あのパックは訳文のライセンスが示されていないので、訳文は流用せず、各MODの英語ロケールから訳し直しています。
+
+- 除外するのは Any_Japanise_Pack と MOD本体の日本語訳だけです。惑星Mod 日本語化パックのキーは除外しません。
+- 依存関係の `? Translate_planet_into_Japanese` は残しています。パックを有効にしたままの人でも、このMODが後から読み込まれて、重なったキーはこちらの訳になります。
+- パックにしかなく、手元に英語の元MODがないもの（Nexus、Erimos Prime、Arrakis、Terra Palus、Castra など）はまだ引き継いでいません。
+
 ## 同じキーを複数のMODが定義している場合
 
 元のMODどうしで同じキーを上書きしているもの（cr-extras → foliax / obsidiax、Arcanyx・IridescentIndustry → Voidcraft、ribbonia → liquid_recycler）は、上書きする側のMODの訳だけを入れています。パックをまとめて入れる前提の選び方です。
