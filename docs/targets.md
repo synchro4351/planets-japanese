@@ -140,3 +140,30 @@ kry-all-planet-mods 1.1.5 と kry-planet-mods-lite 1.1.3 の必須依存を、�
 | SpidertronEnhancements | 1.11.0 | 4 |
 | tenebris-prime | 1.3.22 | 77 |
 | visible-planets | 1.8.2 | 22 |
+
+## 0.5.0 で追加した MOD（パック以外の惑星MOD）
+
+Kryパックの更新後に出た惑星MODと、その前提MODです。Any_Japanise_Pack と MOD本体の日本語訳にないキーを訳しています（2026-11-17 時点の手元の最新版）。
+dea-dia-system-beomyo、metal-and-stars-beomyo、alchemy-khemiaFixed は、Any_Japanise_Pack とこれまでの訳ですべて訳済みでした。
+
+| MOD名 (内部名) | 版 | 追加キー数 |
+|---|---|---|
+| aai-vehicles-ironclad | 0.8.0 | 18 |
+| any-planet-start | 1.2.7 | 2 |
+| beyond-the-galaxy | 0.1.15 | 220 |
+| Cold_biters | 2.3.0 | 3 |
+| Crystalline-Library | 1.0.0 | 39 |
+| est-tiny-storage-tank | 1.5.2 | 18 |
+| gradus | 0.6.1 | 155 |
+| IndustrialAscension | 2.0.1 | 415 |
+| khaosbioprocessinggroup | 2.2.1 | 2 |
+| khaoslib | 2.2.0 | 2 |
+| lex-aircraft | 1.4.0 | 43 |
+| planet-pandora-beomyo | 0.3.0 | 75 |
+| planet_prismaris | 0.1.6 | 393 |
+| quality_glassware | 0.1.1 | 41 |
+| Robocharger-Updated | 0.0.2 | 18 |
+| science-tab | 1.13.0 | 3 |
+| selene | 1.0.5 | 190 |
+| virentis-beomyo | 0.2.14 | 240 |
+| VoidProcessing-Updated | 2.3.0 | 145 |

@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2026-11-17
+  Features:
+    - Kryパック以外の惑星MODにも対応した: Gradus、Selene、Prismaris、Virentis（beomyo版）、Pandora（beomyo版）、Industrial Ascension、Void Processing、Beyond the Galaxy
+    - 上の前提MOD（Crystalline Library、lex-aircraft、quality_glassware、AAI Vehicles: Ironclad など）の未訳分も追加（19MOD・約2,000キー）
+  Changes:
+    - 製造サイエンスパック、ユーティリティーサイエンスパックの表記を公式訳に合わせた
+---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 2026-11-01
   Features:
