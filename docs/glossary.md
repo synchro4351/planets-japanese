@@ -13,6 +13,7 @@ Factorio 本体の `data/*/locale/ja` に合わせています。迷ったら本
 | Asteroid / Asteroid chunk / Asteroid collector | アステロイド / アステロイドの破片 / アステロイド収集機 |
 | Biter / Pentapod / Small demolisher | バイター / ペンタポッド / 小型デモリッシャー |
 | Science pack / Space science pack | サイエンスパック / スペースサイエンスパック |
+| Production / Utility science pack | 製造サイエンスパック / ユーティリティーサイエンスパック |
 | Electronic circuit / Advanced circuit / Processing unit | 電子基板 / 発展基板 / 制御基板 |
 | Quantum processor / Supercapacitor / Superconductor | 量子プロセッサー / 超電導コンデンサー / 超電導体 |
 | Assembling machine / Foundry / Electromagnetic plant / Cryogenic plant | 組立機 / 鋳造炉 / 電磁プラント / 低温プラント |
@@ -60,6 +61,10 @@ Factorio 本体の `data/*/locale/ja` に合わせています。迷ったら本
 | Bellicos / Aegis / Rabbasca / Eneas | ベリコス / イージス / ラバスカ / エネアス | 各惑星 |
 | Microcosm / Cosmic incubator | ミクロコスモス / 宇宙インキュベーター | panglia_planet, matter_printer |
 | Robotics science pack | ロボティクスサイエンスパック | nulla, planet-ferrum |
+| Gradus / Selene / Prismaris / Virentis / Pandora | グラドゥス / セレーネ / プリズマリス / ヴィレンティス / パンドラ | 0.5.0 の追加分 |
+| Oratl / Ozuno / Engola / Keirus / Calidus | オラトル / オズノ / エンゴラ / ケイルス / カリダス | VoidProcessing-Updated, IndustrialAscension, planet_prismaris |
+| Legendary / Mythic（品質） | レジェンド / ミシック | 公式訳に合わせる |
+| Shattered planet | 砕け散った惑星（公式訳） | 共通 |
 
 ## 書き方のルール
 

@@ -1,7 +1,8 @@
 # All Planet Mods 日本語化（planets-japanese）
 
 [Kry's All Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods)（と lite 版）に含まれる惑星MODと、その前提MOD約70個を日本語化するFactorio MODです。
-パックの作者とは関係のない、有志の日本語化MODです。
+パックの更新後に出た惑星MOD（Gradus、Selene、Prismaris、Virentis など）も、プラスアルファで訳しています。
+パックや各MODの作者とは関係のない、有志の日本語化MODです。
 
 > **AIによる機械翻訳です。** 訳語の統一やタグの確認はしていますが、ゲーム内ですべての表示を確かめたわけではありません。不自然な訳や誤訳を見つけたら Issue で教えてください。
 
@@ -22,6 +23,7 @@ MOD本体に日本語訳が入っている部分も、本体の訳を優先し�
 ## 対応MOD
 
 主な対応MOD: Arig / Hyarion / Tellus / Panglia / Muria / Linox / Foliax / Crucible / Rabbasca / Eneas / Tenebris Prime / Lignumis ほか。
+パック以外: Gradus / Selene / Prismaris / Virentis（beomyo版）/ Pandora（beomyo版）/ Industrial Ascension / Void Processing / Beyond the Galaxy ほか。
 全一覧は [docs/targets.md](docs/targets.md) にあります。
 
 訳語は Factorio 公式の日本語訳に合わせています（一覧は [docs/glossary.md](docs/glossary.md)）。
