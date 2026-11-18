@@ -13,16 +13,15 @@ Factorio 2.0 と 2.1 のどちらでも、自分のバージョンに合った�
 
 ## ほかの日本語化MODとの併用
 
-次のMODと一緒に使えます。これらがすでに訳しているところは、このMODには入れていません。
-
-- [Any_Japanise_Pack](https://mods.factorio.com/mod/Any_Japanise_Pack)
-- [惑星Mod 日本語化パック](https://mods.factorio.com/mod/Translate_planet_into_Japanese)
-
+[Any_Japanise_Pack](https://mods.factorio.com/mod/Any_Japanise_Pack) と一緒に使えます。Any_Japanise_Pack がすでに訳しているところは、このMODには入れていません。
 MOD本体に日本語訳が入っている部分も、本体の訳を優先しています。
+
+[惑星Mod 日本語化パック](https://mods.factorio.com/mod/Translate_planet_into_Japanese) は Factorio 2.1 に対応しておらず、更新も止まっているため、このMODが訳を引き継ぎました（Lignumis、Tenebris Prime、Moshine、Muluna、Maraxsis、Rubia など）。
+惑星Mod 日本語化パックは無効にしてください。有効のままだと、Any_Japanise_Pack や各MOD本体の正しい訳が、古い訳で上書きされてしまいます。
 
 ## 対応MOD
 
-主な対応MOD: Arig / Hyarion / Tellus / Panglia / Muria / Linox / Foliax / Crucible / Rabbasca / Eneas ほか。
+主な対応MOD: Arig / Hyarion / Tellus / Panglia / Muria / Linox / Foliax / Crucible / Rabbasca / Eneas / Tenebris Prime / Lignumis ほか。
 全一覧は [docs/targets.md](docs/targets.md) にあります。
 
 訳語は Factorio 公式の日本語訳に合わせています（一覧は [docs/glossary.md](docs/glossary.md)）。

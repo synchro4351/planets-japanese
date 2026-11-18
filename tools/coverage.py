@@ -8,7 +8,7 @@
 
 パックの必須依存を前提MODまでたどり、各MODの英語キーのうち
 - MOD本体の日本語ロケール
-- ほかの日本語化MOD（Any_Japanise_Pack / Translate_planet_into_Japanese）
+- ほかの日本語化MOD（Any_Japanise_Pack）
 - このMOD（locale/ja）
 で訳されているキー数を Markdown の表で出す。
 """
@@ -21,7 +21,7 @@ from pathlib import Path
 from check_keys import parse_cfg
 
 ROOT = Path(__file__).resolve().parent.parent
-OTHER_PACKS = ["Any_Japanise_Pack", "Translate_planet_into_Japanese"]
+OTHER_PACKS = ["Any_Japanise_Pack"]
 BUILTIN = {"base", "space-age", "quality", "elevated-rails", "recycler"}
 
 

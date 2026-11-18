@@ -4,7 +4,7 @@
     python3 tools/check_conflicts.py <日本語化MODのzip> [<zip> ...]
 
 例:
-    python3 tools/check_conflicts.py Any_Japanise_Pack_2.0.45.zip Translate_planet_into_Japanese_1.3.3.zip
+    python3 tools/check_conflicts.py Any_Japanise_Pack_2.1.0.zip
 """
 import sys
 import zipfile

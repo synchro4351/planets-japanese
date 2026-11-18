@@ -4,7 +4,7 @@ kry-all-planet-mods 1.1.5 と kry-planet-mods-lite 1.1.3 の必須依存を、�
 `python3 tools/coverage.py <modフォルダ> kry-all-planet-mods kry-planet-mods-lite` で作っています（2026-10-20時点、各MODの手元の最新版）。
 
 - **MOD本体** … MOD自身の日本語ロケールで訳されているキー数
-- **他の日本語化MOD** … Any_Japanise_Pack 2.1.0 / Translate_planet_into_Japanese 1.3.3 で訳されているキー数
+- **他の日本語化MOD** … Any_Japanise_Pack 2.1.0 / Translate_planet_into_Japanese 1.3.3 で訳されているキー数（0.4.0 からは Translate_planet_into_Japanese の分もこのMODで訳しているので、表は下の追加分を反映していません）
 - **このMOD** … このMODで訳したキー数
 - **未訳** … まだどこでも訳されていないキー数。このMODではここだけを訳す
 
@@ -105,3 +105,38 @@ kry-all-planet-mods 1.1.5 と kry-planet-mods-lite 1.1.3 の必須依存を、�
 - Cerys, maraxsis, planet-muluna, corrundum, secretas, Moshine, cubium, rubia, Paracelsin, skewer_planet_vesta, metal-and-stars, dea-dia-system, terrapalus, PlanetsLib, tile-upgrade-planner-muluna … 他の日本語化MODが訳しているので集計から外した
 - 各種 assets / graphics MOD … 画像だけで表示文字列はない想定（未確認）
 - pelagos, janus-reshifted, virentis, slp-dyson-sphere-reworked … 2.1版が入手できていない
+
+## 0.4.0 で追加した MOD（惑星Mod 日本語化パックからの引き継ぎ）
+
+惑星Mod 日本語化パックが訳していた MOD のうち、手元に英語の元MODがあるものです。Any_Japanise_Pack と MOD本体の日本語訳にないキーを訳しています（2026-11-01 時点の手元の最新版）。
+
+| MOD名 (内部名) | 版 | 追加キー数 |
+|---|---|---|
+| Accumulator-V2 | 1.0.8 | 8 |
+| ArmouredBiters | 2.1.0 | 2 |
+| common-prototypes | 0.0.4 | 28 |
+| corrundum | 1.0.50 | 1 |
+| elevated-pipes | 1.5.0 | 6 |
+| Igrys | 1.5.40 | 4 |
+| lignumis | 2.12.3 | 42 |
+| long_stack_inserter | 1.1.1 | 2 |
+| machine-upgrades | 0.69.23 | 10 |
+| maraxsis | 1.40.26 | 44 |
+| metal-and-stars-beomyo | 0.1.22 | 23 |
+| mferrari_lib | 0.7.7 | 20 |
+| minimalist-rails | 2.0.9 | 1 |
+| Moshine | 1.2.13 | 88 |
+| Paracelsin | 1.11.6 | 20 |
+| planet-muluna | 2.9.7 | 71 |
+| PlanetsLib | 2.4.0 | 27 |
+| RocketCargoInsertion | 1.2.0 | 17 |
+| rubia | 0.69.161 | 28 |
+| se-space-trains | 1.1.5 | 12 |
+| secretas | 1.0.38 | 1 |
+| snouz-big-accumulator | 1.2.1 | 4 |
+| snouz-big-solar-panel | 1.2.2 | 4 |
+| snouz_better_substation | 1.2.2 | 4 |
+| SolarMatrix | 1.0.9 | 13 |
+| SpidertronEnhancements | 1.11.0 | 4 |
+| tenebris-prime | 1.3.22 | 77 |
+| visible-planets | 1.8.2 | 22 |
